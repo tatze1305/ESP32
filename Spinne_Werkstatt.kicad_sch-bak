@@ -1414,6 +1414,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1424,17 +1435,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -6528,6 +6528,28 @@
 			)
 		)
 	)
+	(global_label "pin25"
+		(shape bidirectional)
+		(at 172.72 166.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2474a1f1-fa13-4081-a45d-a33a0383f436")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 163.3017 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "pin16"
 		(shape bidirectional)
 		(at 74.93 167.64 0)
@@ -7404,28 +7426,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ESP32_IO0"
-		(shape bidirectional)
-		(at 172.72 166.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a49ed7c2-68f1-4d58-b2e0-29fcc49e7fad")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.4636 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -9098,7 +9098,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5fe912c8-c46b-458e-9b0f-abcf523b49e3")
-		(property "Reference" "esp_right1"
+		(property "Reference" "esp_right"
 			(at 180.975 130.81 0)
 			(effects
 				(font
@@ -9189,7 +9189,7 @@
 		(instances
 			(project "Spinne_Werkstatt"
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
-					(reference "esp_right1")
+					(reference "esp_right")
 					(unit 1)
 				)
 			)
@@ -9951,7 +9951,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a94a3540-942d-490f-9c54-e80f2d4d0ef4")
-		(property "Reference" "esp_left1"
+		(property "Reference" "esp_left"
 			(at 137.795 130.81 0)
 			(effects
 				(font
@@ -10042,7 +10042,7 @@
 		(instances
 			(project ""
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
-					(reference "esp_left1")
+					(reference "esp_left")
 					(unit 1)
 				)
 			)
