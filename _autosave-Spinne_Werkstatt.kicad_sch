@@ -10981,7 +10981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e4a889-4660-4ebc-89e9-38ef66bfcee4")
-		(property "Reference" "ESP_EN_R"
+		(property "Reference" "ESP_EN_R1"
 			(at 379.73 46.9899 0)
 			(effects
 				(font
@@ -11035,7 +11035,7 @@
 		(instances
 			(project ""
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
-					(reference "ESP_EN_R")
+					(reference "ESP_EN_R1")
 					(unit 1)
 				)
 			)
