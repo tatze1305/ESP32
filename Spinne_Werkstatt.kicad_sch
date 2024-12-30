@@ -1292,7 +1292,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1304,7 +1304,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1340,7 +1340,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1352,7 +1352,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
@@ -1414,6 +1414,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1424,17 +1435,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -8761,7 +8761,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2340c592-49ff-4d00-a341-bae9e5c0b61c")
-		(property "Reference" "Spannungsregler1"
+		(property "Reference" "AMS1117"
 			(at 224.79 49.53 0)
 			(effects
 				(font
@@ -8816,7 +8816,7 @@
 		(instances
 			(project "Spinne_Werkstatt"
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
-					(reference "Spannungsregler1")
+					(reference "AMS1117")
 					(unit 1)
 				)
 			)
@@ -10981,7 +10981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6e4a889-4660-4ebc-89e9-38ef66bfcee4")
-		(property "Reference" "ESP_EN_R"
+		(property "Reference" "ESP_EN_R1"
 			(at 379.73 46.9899 0)
 			(effects
 				(font
@@ -11035,7 +11035,7 @@
 		(instances
 			(project ""
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
-					(reference "ESP_EN_R")
+					(reference "ESP_EN_R1")
 					(unit 1)
 				)
 			)

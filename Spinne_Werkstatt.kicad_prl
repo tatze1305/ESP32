@@ -68,7 +68,7 @@
       42,
       43
     ],
-    "visible_layers": "fffffff7_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -79,7 +79,7 @@
   },
   "meta": {
     "filename": "Spinne_Werkstatt.kicad_prl",
-    "version": 4
+    "version": 3
   },
   "net_inspector_panel": {
     "col_hidden": [
