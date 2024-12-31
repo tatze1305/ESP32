@@ -1292,7 +1292,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1304,7 +1304,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -8777,7 +8777,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "bulme_footprints:SOT230P700X180-4N"
 			(at 224.79 50.8 0)
 			(effects
 				(font
@@ -8915,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 36.83 157.48 0)
 			(effects
 				(font
@@ -10004,7 +10004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 208.28 60.96 0)
 			(effects
 				(font
@@ -10795,7 +10795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.7"
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
 			(at 240.03 60.96 0)
 			(effects
 				(font

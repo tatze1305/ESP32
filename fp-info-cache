@@ -1,4 +1,4 @@
-24553087248308612
+24554822908120600
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -99049,6 +99049,13 @@ Phototransistor
 0
 8
 8
+bulme_footprints
+SOT230P700X180-4N
+DCY (R-PDSO-G4)
+Integrated Circuit
+0
+4
+4
 jst
 JST-XH-02-PACKAGE-LONG-PAD
 JST XH Connector Long Pads (Package){return}{return}Wire to board connector.  Pitch: 2,54 mm, (0.100"){return}{return}Number of pins: 2  Created by Rembrandt Electronics{return}{return}www.rembrandtelectronics.com
