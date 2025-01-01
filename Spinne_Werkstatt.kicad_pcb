@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20241129)
+	(version 20241228)
 	(generator "pcbnew")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(general
 		(thickness 1.6)
 		(legacy_teardrops no)
@@ -164,18 +164,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b7aa72e-d06b-4bef-bb13-e1f5b1a527c6")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -612,18 +600,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3a0c2d5a-9c3e-47ab-94ae-a7613229469b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -821,18 +797,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7e0d8528-eeba-4145-9aa1-3f18d246e9fd")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -1312,18 +1276,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "da27f2a9-7dc2-409e-8cec-883015296676")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2171,18 +2123,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d9cfa6e7-84a9-48e7-bb95-9b43dabdea63")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esdaulc6-3bp6.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
@@ -2473,18 +2413,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bb6775f2-7f71-4bac-8534-61eaa68c35e1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -2872,18 +2800,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "14852370-493b-4fb5-b156-99a0b0bc9edd")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 			(at 0 0 -90)
 			(unlocked yes)
@@ -3139,18 +3055,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d94ca858-9c80-40f6-96a5-a337307a234d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BSS138-D.PDF"
 			(at 0 0 90)
 			(unlocked yes)
@@ -3385,7 +3289,7 @@
 		(descr "SMD capacitor, aluminum electrolytic, Nichicon, 5.0x5.4mm")
 		(tags "capacitor electrolytic")
 		(property "Reference" "C_ESP1"
-			(at 0 -3.7 90)
+			(at 4.7 -0.25 180)
 			(layer "F.SilkS")
 			(uuid "fc438c9e-48d5-4981-9a5f-bb8125770d0d")
 			(effects
@@ -3402,18 +3306,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "302f7d7c-9dc8-4a29-875a-d58cf1e3317a")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -3851,18 +3743,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f686184-49fb-4ebb-be59-ec1113260dc5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -4119,18 +3999,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b4f898d3-1577-49f7-b5e3-6bf92043915e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -4376,13 +4244,14 @@
 		(descr "DCY (R-PDSO-G4)")
 		(tags "Integrated Circuit")
 		(property "Reference" "AMS1117"
-			(at 0 0 90)
+			(at -0.1 0 180)
 			(layer "F.SilkS")
 			(uuid "68a40816-4e71-4d2e-9826-1f81c3c99fbc")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 0.762 0.762)
+					(thickness 0.127)
+					(bold yes)
 				)
 			)
 		)
@@ -4395,18 +4264,6 @@
 				(font
 					(size 1.27 1.27)
 					(thickness 0.254)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b649486e-9e43-4543-9479-a7eea0bde333")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -4643,13 +4500,14 @@
 		(descr "C, Rect series, Radial, pin pitch=5.00mm, , length*width=7*2mm^2, Capacitor")
 		(tags "C Rect series Radial pin pitch 5.00mm  length 7mm width 2mm Capacitor")
 		(property "Reference" "C_USB_UART1"
-			(at 2 -6.75 90)
+			(at 2.5 -7 90)
 			(layer "F.SilkS")
 			(uuid "67478d28-9f66-4f06-a8f4-1e5668a31f4a")
 			(effects
 				(font
 					(size 0.762 0.762)
-					(thickness 0.0762)
+					(thickness 0.127)
+					(bold yes)
 				)
 			)
 		)
@@ -4660,18 +4518,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5709e578-17fb-4286-ab0f-fa2d572cd4ac")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -4899,18 +4745,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "22f9028c-b71b-40e4-be91-49f74f88c417")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 -90)
 			(unlocked yes)
@@ -5108,18 +4942,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 -90)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8eb91dcf-184a-48d0-b9c9-2f8f9340b081")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -5559,18 +5381,6 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dc77820-e2e0-4274-a729-85916030b188")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -5973,18 +5783,6 @@
 					(thickness 0.15)
 				)
 				(justify mirror)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8b650e04-d2fc-48a4-a16a-c9622bf596df")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
 			)
 		)
 		(property "Datasheet" ""
