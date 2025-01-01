@@ -1,7 +1,7 @@
 (kicad_sch
 	(version 20241209)
 	(generator "eeschema")
-	(generator_version "8.99")
+	(generator_version "9.0")
 	(uuid "63f5a8da-c9e8-4b26-9a17-2dbcdac59688")
 	(paper "A3")
 	(lib_symbols
@@ -1340,7 +1340,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1352,7 +1352,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
@@ -1414,17 +1414,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1435,6 +1424,17 @@
 					)
 					(fill
 						(type none)
+					)
+				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 				(rectangle
@@ -3984,6 +3984,258 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "bulme_schematics:TPSMB1805CA"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 12.7 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "TPSMB1805CA"
+				(at 12.7 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "TPSMB1805CA"
+				(at 12.7 -93.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=e7a196a8-a225-4724-ab76-7c22e0d48557&filename=littelfuse-tvs-diode-tpsmb-datasheet"
+				(at 12.7 -193.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diodes / TVS Diodes TVS 600W ASYM DO214AA AEQ101 T&R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.44"
+				(at 12.7 -393.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "576-TPSMB1805CA"
+				(at 12.7 -493.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/TPSMB1805CA?qs=iLKYxzqNS74xBcdbh976cw%3D%3D"
+				(at 12.7 -593.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 12.7 -693.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "TPSMB1805CA"
+				(at 12.7 -793.65 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(symbol "TPSMB1805CA_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 9.144 2.54) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 10.16 2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.032) (xy 11.176 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 15.24 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 15.24 2.54) (xy 10.16 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -4702,6 +4954,12 @@
 		(uuid "31f247c1-241f-4202-a294-ba63540b5489")
 	)
 	(junction
+		(at 87.63 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39d15f97-410a-4b23-b5bd-4b3fdf0a24d5")
+	)
+	(junction
 		(at 62.23 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4744,6 +5002,12 @@
 		(uuid "deb7f604-36d5-4300-81c5-cc4af83cc066")
 	)
 	(junction
+		(at 113.03 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f03992af-53bb-4c0b-8adc-aaabb5781d91")
+	)
+	(junction
 		(at 29.21 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4754,6 +5018,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f6bc0eeb-5c98-4dd6-91d3-09f6e2d5672f")
+	)
+	(junction
+		(at 100.33 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf398f7-6fb2-4ee2-b16e-9c3a26ab5626")
 	)
 	(no_connect
 		(at 48.26 54.61)
@@ -4891,16 +5161,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 66.04) (xy 77.47 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07ca9f43-ba77-420e-aa33-65243727cb47")
-	)
-	(wire
-		(pts
 			(xy 240.03 52.07) (xy 240.03 55.88)
 		)
 		(stroke
@@ -4952,16 +5212,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 60.96) (xy 77.47 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d5846f-f7a0-4dcd-8bf5-1e1120ef09ba")
-	)
-	(wire
-		(pts
 			(xy 341.63 71.12) (xy 349.25 71.12)
 		)
 		(stroke
@@ -4979,6 +5229,16 @@
 			(type default)
 		)
 		(uuid "16836119-e191-4540-ae5e-a28b3ca82a1e")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 113.03 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1859c8c1-09b0-4622-8477-2e3b44dc584c")
 	)
 	(wire
 		(pts
@@ -5012,6 +5272,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 46.99) (xy 113.03 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "219894f3-bece-4b5e-aff3-eb4081c26ab1")
+	)
+	(wire
+		(pts
 			(xy 180.34 74.93) (xy 184.15 74.93)
 		)
 		(stroke
@@ -5019,6 +5289,16 @@
 			(type default)
 		)
 		(uuid "21ba4527-201f-4c41-a48e-b893faf4cf57")
+	)
+	(wire
+		(pts
+			(xy 62.23 66.04) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "222fd4b7-c12b-4661-bc45-253bab51365f")
 	)
 	(wire
 		(pts
@@ -5182,7 +5462,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 40.64) (xy 77.47 46.99)
+			(xy 124.46 43.18) (xy 124.46 46.99)
 		)
 		(stroke
 			(width 0)
@@ -5319,6 +5599,16 @@
 			(type default)
 		)
 		(uuid "52a27530-b5d0-47d2-a354-bf9c47556303")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579d275f-367e-46ee-89e9-d310416d7206")
 	)
 	(polyline
 		(pts
@@ -5474,6 +5764,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 66.04) (xy 124.46 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78983361-492a-49f4-8265-98582dc831e4")
+	)
+	(wire
+		(pts
 			(xy 48.26 67.31) (xy 50.8 67.31)
 		)
 		(stroke
@@ -5491,6 +5791,16 @@
 			(type default)
 		)
 		(uuid "7c2dc252-4c09-4dda-9472-25117fc938f6")
+	)
+	(wire
+		(pts
+			(xy 87.63 90.17) (xy 87.63 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7dd625ea-e5cb-404b-a627-10bdc149b5ec")
 	)
 	(wire
 		(pts
@@ -5755,13 +6065,13 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 46.99) (xy 77.47 46.99)
+			(xy 100.33 90.17) (xy 100.33 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9df38373-b04d-4256-9c23-3e4e8686217a")
+		(uuid "9ff6c72a-a5af-40f5-a3c0-a1e45930222a")
 	)
 	(wire
 		(pts
@@ -5792,6 +6102,16 @@
 			(type default)
 		)
 		(uuid "a28eefaa-2ad5-4a30-a5af-833addbea20b")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 100.33 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3334ea4-eed2-4a2e-9904-c742d48f809a")
 	)
 	(wire
 		(pts
@@ -5975,6 +6295,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 60.96) (xy 124.46 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b493bfde-00a5-452b-ae90-1c6109e1683f")
+	)
+	(wire
+		(pts
 			(xy 179.07 45.72) (xy 179.07 48.26)
 		)
 		(stroke
@@ -6022,6 +6352,16 @@
 			(type default)
 		)
 		(uuid "baddd858-15a0-4632-b113-d3398b89c2ad")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 124.46 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc48d87f-4d86-46b8-a1f2-a36100073407")
 	)
 	(wire
 		(pts
@@ -6217,6 +6557,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 66.04) (xy 87.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e561aebc-1b65-4db2-9d8f-0f37b5eb3b43")
+	)
+	(wire
+		(pts
 			(xy 328.93 45.72) (xy 328.93 48.26)
 		)
 		(stroke
@@ -6314,6 +6664,16 @@
 			(type default)
 		)
 		(uuid "f352726b-d7a0-40ba-8b71-669f8c56c031")
+	)
+	(wire
+		(pts
+			(xy 113.03 90.17) (xy 113.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3673554-1b6c-465a-8d93-9b028f863bf5")
 	)
 	(wire
 		(pts
@@ -6978,7 +7338,7 @@
 	)
 	(global_label "D-"
 		(shape input)
-		(at 77.47 60.96 0)
+		(at 124.46 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6988,7 +7348,7 @@
 		)
 		(uuid "48470cd1-a855-45b5-b9a5-51de08027228")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.2976 60.96 0)
+			(at 130.2876 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7682,7 +8042,7 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 77.47 66.04 0)
+		(at 124.46 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7692,7 +8052,7 @@
 		)
 		(uuid "b65b36fc-aeb8-487d-9dd2-c3b0a5eabfc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 83.2976 66.04 0)
+			(at 130.2876 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,6 +8415,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 113.03 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "016f54e4-f2cc-449b-9e11-299fb8332c02")
+		(property "Reference" "#PWR019"
+			(at 113.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 113.03 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 113.03 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b34c716-29ac-450f-a795-82d388b09c63")
+		)
+		(instances
+			(project "Spinne_Werkstatt"
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 179.07 45.72 0)
 		(unit 1)
@@ -8187,6 +8613,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 87.63 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "083051f5-1a23-4595-aedc-524a71e8c5eb")
+		(property "Reference" "#PWR016"
+			(at 87.63 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 87.63 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 87.63 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66cb7173-9953-4f3a-ba40-62571b45f1db")
+		)
+		(instances
+			(project "Spinne_Werkstatt"
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 261.62 175.26 270)
 		(unit 1)
@@ -8255,7 +8747,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 77.47 40.64 0)
+		(at 124.46 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8263,7 +8755,7 @@
 		(dnp no)
 		(uuid "11f77f88-e5a1-4c7f-b5a7-e594080d40e2")
 		(property "Reference" "#PWR05"
-			(at 77.47 44.45 0)
+			(at 124.46 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,7 +8764,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 73.914 38.862 0)
+			(at 120.904 41.402 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8280,7 +8772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 40.64 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8289,7 +8781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 40.64 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8298,7 +8790,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 77.47 40.64 0)
+			(at 124.46 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9157,6 +9649,127 @@
 		)
 	)
 	(symbol
+		(lib_id "bulme_schematics:TPSMB1805CA")
+		(at 87.63 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4fe89bca-fd10-44ad-b3cc-ccc352d3ad41")
+		(property "Reference" "D2"
+			(at 81.534 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPSMB1805CA"
+			(at 83.566 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bulme_footprints:TPSMB1805CA"
+			(at 181.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=e7a196a8-a225-4724-ab76-7c22e0d48557&filename=littelfuse-tvs-diode-tpsmb-datasheet"
+			(at 281.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 600W ASYM DO214AA AEQ101 T&R"
+			(at 87.63 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at 481.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-TPSMB1805CA"
+			(at 581.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/TPSMB1805CA?qs=iLKYxzqNS74xBcdbh976cw%3D%3D"
+			(at 681.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 781.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPSMB1805CA"
+			(at 881.28 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4621a0b6-a05c-404f-b965-898927c6fb39")
+		)
+		(pin "2"
+			(uuid "d9fa33e6-727b-413b-b29e-a08896a8cc06")
+		)
+		(instances
+			(project ""
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 176.53 45.72 0)
 		(unit 1)
@@ -9769,6 +10382,72 @@
 			(project "Spinne_Werkstatt"
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b1324c9-0573-4755-a889-e9149f825269")
+		(property "Reference" "#PWR018"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "079bc2d3-8d03-461a-b855-727a097454a5")
+		)
+		(instances
+			(project "Spinne_Werkstatt"
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10576,7 +11255,7 @@
 		(dnp no)
 		(uuid "b2a53f47-6ecf-4ad2-9246-c1aed9d42813")
 		(property "Reference" "D1"
-			(at 81.788 78.74 0)
+			(at 55.372 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10584,7 +11263,7 @@
 			)
 		)
 		(property "Value" "ESDAULC6-3BP6"
-			(at 84.836 81.28 0)
+			(at 56.642 91.186 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11042,6 +11721,127 @@
 		)
 	)
 	(symbol
+		(lib_id "bulme_schematics:TPSMB1805CA")
+		(at 113.03 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e6072aa6-4593-438a-9f15-2f3188356590")
+		(property "Reference" "D4"
+			(at 106.934 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPSMB1805CA"
+			(at 108.966 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bulme_footprints:TPSMB1805CA"
+			(at 206.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=e7a196a8-a225-4724-ab76-7c22e0d48557&filename=littelfuse-tvs-diode-tpsmb-datasheet"
+			(at 306.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 600W ASYM DO214AA AEQ101 T&R"
+			(at 113.03 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at 506.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-TPSMB1805CA"
+			(at 606.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/TPSMB1805CA?qs=iLKYxzqNS74xBcdbh976cw%3D%3D"
+			(at 706.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 806.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPSMB1805CA"
+			(at 906.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f5c73d4-edb2-4648-8757-00e008e8fc24")
+		)
+		(pin "2"
+			(uuid "1e7a8df5-03ee-4516-8f37-3fd26329da80")
+		)
+		(instances
+			(project "Spinne_Werkstatt"
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 87.63 0)
 		(unit 1)
@@ -11233,6 +12033,127 @@
 			(project "Spinne_Werkstatt"
 				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "bulme_schematics:TPSMB1805CA")
+		(at 100.33 90.17 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc9b622c-3227-46a1-ac02-8d92df1ea733")
+		(property "Reference" "D3"
+			(at 94.234 78.232 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TPSMB1805CA"
+			(at 96.266 73.152 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "bulme_footprints:TPSMB1805CA"
+			(at 193.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=e7a196a8-a225-4724-ab76-7c22e0d48557&filename=littelfuse-tvs-diode-tpsmb-datasheet"
+			(at 293.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diodes / TVS Diodes TVS 600W ASYM DO214AA AEQ101 T&R"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.44"
+			(at 493.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-TPSMB1805CA"
+			(at 593.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/TPSMB1805CA?qs=iLKYxzqNS74xBcdbh976cw%3D%3D"
+			(at 693.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 793.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPSMB1805CA"
+			(at 893.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36edbdce-f3a5-497b-9b34-9274f73dfa89")
+		)
+		(pin "2"
+			(uuid "0ebfa197-038c-4d89-bf55-934e84379fac")
+		)
+		(instances
+			(project "Spinne_Werkstatt"
+				(path "/63f5a8da-c9e8-4b26-9a17-2dbcdac59688"
+					(reference "D3")
 					(unit 1)
 				)
 			)
