@@ -1292,7 +1292,7 @@
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(arc
@@ -1304,7 +1304,7 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(arc
@@ -1414,6 +1414,17 @@
 						(type none)
 					)
 				)
+				(circle
+					(center 0 -5.842)
+					(radius 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
 				(polyline
 					(pts
 						(xy 0 -5.842) (xy 0 4.318)
@@ -1424,17 +1435,6 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(circle
-					(center 0 -5.842)
-					(radius 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
 					)
 				)
 				(rectangle
@@ -4091,7 +4091,7 @@
 			(symbol "TPSMB1805CA_1_1"
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 10.16 0)
+						(xy 5.08 2.54) (xy 5.08 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -4103,7 +4103,7 @@
 				)
 				(polyline
 					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
+						(xy 5.08 2.54) (xy 10.16 0)
 					)
 					(stroke
 						(width 0.254)
@@ -4151,7 +4151,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.032) (xy 10.16 2.032)
+						(xy 10.16 -2.032) (xy 11.176 -2.54)
 					)
 					(stroke
 						(width 0.254)
@@ -4163,7 +4163,7 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.032) (xy 11.176 -2.54)
+						(xy 10.16 -2.032) (xy 10.16 2.032)
 					)
 					(stroke
 						(width 0.254)
