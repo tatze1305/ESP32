@@ -1,4 +1,4 @@
-# Spinne Werkstatt — KiCad Projekt 🕸️
+# ESP32 Entwicklerboard — KiCad Projekt 🕸️
 
 Dies ist das Open-Source-Projekt **Spinne Werkstatt**, erstellt mit [KiCad](https://kicad.org/).  
 Es handelt sich um ein Platinen-Design, das frei zur Verfügung steht und für eigene Zwecke verwendet, modifiziert oder weitergegeben werden kann.
@@ -7,8 +7,8 @@ Es handelt sich um ein Platinen-Design, das frei zur Verfügung steht und für e
 
 ## 🔧 Inhalt
 
-- `Spinne_Werkstatt.kicad_sch` — Schaltplan-Datei  
-- `Spinne_Werkstatt.kicad_pcb` — Platinenlayout  
+- `esp32.kicad_sch` — Schaltplan-Datei  
+- `esp32.kicad_pcb` — Platinenlayout  
 - `gerber/` — Produktionsdaten (Gerber Files)  
 - `PDF/` — PDF-Exports für Dokumentation  
 - `README.md` — Diese Datei  
