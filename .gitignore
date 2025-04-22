@@ -1,0 +1,7 @@
+*.bak
+*.lock
+*.lck
+*.prl
+fp-info-cache
+Spinne_Werkstatt-backups/
+
