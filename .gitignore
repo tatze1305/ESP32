@@ -1,7 +1,12 @@
 *.bak
-*.lock
 *.lck
+*.lock
 *.prl
+*_backups/
+*-backups/
 fp-info-cache
-Spinne_Werkstatt-backups/
-
+.DS_Store
+Thumbs.db
+*.tmp
+*.zip
+gerber/
